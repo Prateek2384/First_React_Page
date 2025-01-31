@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: Roboto, Roboto-fallback,Arial;
+  background-color: #eae7dc;
+}
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+.logo{
+  font-size: 20px;
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+}
+#Bhai{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bar>*{
+  width: 30px;
+  height: 4px;
+  background-color: rgb(49, 48, 48);
+  margin: 4px 0;
+}
+
+hr{
+  width:10%;
+  margin-left: 0px;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+}
+
+.menu a {
+  text-decoration: none;/*removes unnecessary underlines*/
+  color: black;
+}
+
+.design {
+  padding: 10px 100px;
+  font-size: 4em;
+  font-weight: bolder;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 60px;
+}
+.dot-design{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+.dot-design>.circle{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-left: 10px;
+  padding-right: 0;
+  
+}
+.dot-design>.circle>div{
+  height: 10px;
+  width: 10px;
+  margin:6px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+#Badmash{
+  border: 5px solid black;
+}
+.year{
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+.content {
+  display: flex;
+  justify-content: flex-end;
+  height: 250px;
+  
+}
+h2 {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black; 
+}
+
+
+.left-box {
+  background-color: #b4e5ec;
+  flex: 1;
+  padding: 70px;
+}
+
+.right-box {
+  background-color: #f08eb6;
+  flex: 1;
+  padding: 70px;
+  position: relative;
+  color: white;
+  text-align: justify;
+}
+.right-box>p{
+  width: 50%;
+}
+.sign-in {
+  position: absolute;
+  bottom: 100px;
+  right: 40px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  background: transparent;
+}
+#First-cont{
+  padding: 10px;
+  text-align: justify;
+}
